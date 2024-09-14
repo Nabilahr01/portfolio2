@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+</head>
+<body>
+    <header>
+        <img src="logo.png" alt="Logo" class="logo">
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#profile">Profile</a>
+            <a href="#portofolio">Project</a>
+            <a href="#contact">Message Us</a>
+        </nav>
+    </header>
+
+    <!-- Home Section -->
+    <section id="home">
+        <div class="container">
+            <div>
+                <h1>Nabilah Robbaniyah</h1>
+                <h5>Student in Telkom University</h5>
+            </div>
+            <div class="image-container">
+                <img src="cover.jpg" alt="cover" class="cover">
+            </div>
+        </div>
+    </section>
+
+    <!-- Profile Section -->
+    <section id="profile">
+        <div class="container">
+            <h1>about</h1>
+            <hr>
+            <div class="double">
+                <div class="left">
+                    <img src="myphoto.jpg" alt="photo" class="photo">
+                </div>
+                <div class="right">
+                    <h3>Nabilah Robbaniyah</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus et metus gravida, congue leo id, hendrerit nisi. Duis sollicitudin nibh ac blandit aliquet. Duis lacus orci, venenatis vitae molestie eget, porttitor nec mauris. Sed eget finibus tortor, tincidunt egestas urna. Praesent vel elit mollis, ullamcorper dui non, feugiat mi. Quisque blandit urna eget velit euismod, sit amet ultrices erat iaculis. Donec a euismod nisi. <br>
+
+                        <br>
+                        Donec interdum neque vitae nibh pellentesque, nec rutrum orci fringilla. Donec sodales erat sit amet diam faucibus, et rutrum tortor hendrerit. Nam id ex a ligula dapibus vehicula at non felis. Donec porta enim ac purus accumsan ultricies. Pellentesque in augue porta, ullamcorper libero quis, vehicula nulla. Maecenas volutpat hendrerit aliquam. Aliquam a iaculis ipsum, et feugiat dolor. Nam congue arcu mi, volutpat sagittis dui varius a. Sed sit amet semper ipsum, non auctor tellus.
+                    </p>
+                    <div class="wrapper">
+                        <a href="#" class="icon"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#" class="icon"><i class="fa-brands fa-linkedin-in"></i></a>
+                        <a href="https://github.com/Nabilahr01" class="icon"><i class="fa-brands fa-github"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portofolio Section -->
+    <section id="portofolio">
+     <div class="container">
+        <main>
+            <h1>Project</h1>
+            <hr>
+                <div class="cardd">
+                    <div class="card">
+                        <img class="project1" src="project1.jp">
+                        <div class="card-content">
+                            <svg>...</svg>
+                            <h3 class="titlee">P1</h3>
+                        </div>
+                        <div class="backdrop"></div>
+                    </div>
+                    <div class="card"></div>
+                        <img class="project2" src="project2.jp">
+                        <div class="card-content">
+                            <h3 class="titlee">P2</h3>
+                        </div>
+                        <div class="backdrop"></div>
+                    </div>
+                    <div class="card"></div>
+                        <img class="project3" src="project3.jp">
+                        <div class="card-content">
+                            <svg>...</svg>
+                            <h3 class="titlee">P3</h3>
+                        </div>
+                        <div class="backdrop"></div>
+                    </div>
+                </div>
+        </main>
+     </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="container">
+            <h2>contact us</h2>
+            <hr>
+            <div class="form-container">
+                <div class="form-left">
+                    <h2>Message Us</h2>
+                    <form id="contactForm">
+                        <label for="name">Nama:</label>
+                        <input type="text" id="name" placeholder="name"  />
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" placeholder="email">
+                        <label for="message">Pesan:</label>
+                        <textarea id="message" placeholder="message"></textarea>
+                        <button type="submit">Submit</button>
+                    </form>
+                </div>
+                <div class="form-right">
+                    <h2>Submitted Data</h2>
+                    <p>Current time: <span id="current-time"></span></p>
+                    <p>Nama: <span id="submitted-name"></span></p>
+                    <p>Eamil: <span id="submitted-email"></span></p>
+                    <p>Pesan: <span id="submitted-message"></span></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
